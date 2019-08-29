@@ -137,12 +137,17 @@ article {
     width: 100%;
 }
 
+article>div, article>ul {
+    width: 100%;
+}
+
 table {
     width: 100%;
 }
 
-article>div, article>ul {
-    width: 100%;
+td.date {
+    text-align: right;
+    font-weight: bold;
 }
 
 @media screen and (min-width:550px){
