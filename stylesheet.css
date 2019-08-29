@@ -98,7 +98,7 @@ p#my_contacts span a{
 }
 
 section{
-    margin:2em auto;
+    margin:1em auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -114,7 +114,8 @@ section > h2{
 
 ul {
     list-style: none;
-    margin-left: 2em;
+    margin: 0;
+    padding-inline-start: 2em;
 }
 
 ul li::before{
@@ -124,6 +125,20 @@ ul li::before{
     display: inline-block; 
     width: 1em;
     margin-left: -1em
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+article>div, article>ul {
+    width: 100%;
 }
 
 @media screen and (min-width:550px){
@@ -162,6 +177,10 @@ ul li::before{
         margin: 1.5em auto;
     }
 
+    section{
+        margin:1.5em auto;
+    }
+
     section > h2{
         margin-left: -.8em;
         border-left: 1em solid 0e2c78;
@@ -178,19 +197,4 @@ ul li::before{
     section > h2{
         margin-left: -1.5em;
     }
-}
-
-article {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0.5em auto;
-}
-
-table {
-    width: 100%;
-}
-
-article>div, article>ul {
-    width: 100%;
 }
