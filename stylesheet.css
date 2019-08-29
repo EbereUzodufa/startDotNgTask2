@@ -4,6 +4,7 @@ html{
     background: #a7b1c4;
     font-size: 12px;
     line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -17,6 +18,7 @@ body{
 }
 
 h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     width: 100%;
 }
