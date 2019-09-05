@@ -2,20 +2,33 @@
 <html lang="en">
 <head>
 	<title>Ebere Uzodufa CV</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Ebere Uzodufa CV made with love by Ebere Uzodufa">
+	<meta name="keywords" content="Ebere Uzodufa CV">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./stylesheet.css">
 </head>
 <body>
 	<header>
-		<h1>Ebere Uzodufa Resume</h1>
-		<div>
-			<img src="https://res.cloudinary.com/dv1dxey5w/image/upload/v1566624938/HNG/ebere_ehq6mh.png">
-			<p>
-				<span>(+234)8164723486</span> |  <span>Lagos, Nigeria</span>
-			</p>
-			<p>
-				<span><a href="mailto:ebereuzodufa@gmail.com" target="_blank" title="Email Me">ebereuzodufa@gmail.com</a></span> |  <a href="https://www.linkedin.com/in/iamebereuzodufa" target="_blank" title="Linkedin Account">https://www.linkedin.com/in/iamebereuzodufa</a>
-			</p>
-			<p>
-				<span><a href="https://medium.com/@uzodufaebere" target="_blank" title="Medium Account">https://medium.com/@uzodufaebere</a></span> |  <a href="https://github.com/EbereUzodufa" target="_blank" title="Github Account">https://github.com/EbereUzodufa</a>
+		<div id="my_info">
+			<h1 id="my_cv">Ebere Uzodufa CV</h1>
+			<img id="my_img" src="https://res.cloudinary.com/dv1dxey5w/image/upload/v1566624938/HNG/ebere_ehq6mh.png">
+			<p id="my_contacts">
+				<span>
+					<a href="tel:2348164723486" title="Call me">(+234)8164723486</a>
+				</span>
+				<span>
+					<a href="mailto:ebereuzodufa@gmail.com" target="_blank" title="Email Me">Email</a>
+				</span>
+				<span>
+					<a href="https://www.linkedin.com/in/iamebereuzodufa" target="_blank" title="Linkedin Account">LinkedIn</a>
+				</span>
+				<span>
+					<a href="https://medium.com/@uzodufaebere" target="_blank" title="Medium Account">Medium</a>
+				</span>
+				<span>
+					<a href="https://github.com/EbereUzodufa" target="_blank" title="Github Account">GitHub</a>
+				</span>
 			</p>
 		</div>
 	</header>
@@ -29,8 +42,8 @@
 		</section>
 		<!-- Section for skill -->
 		<section>
+			<h2>Skills</h2>
 			<article>
-				<h2>Skills</h2>
 				<table>
 					<tr>
 						<td><strong>HTML:</strong></td>
@@ -131,7 +144,7 @@
 					<table>
 						<tr>
 							<td>ViaPhone services Limited. Lagos, Nigeria.</td>
-							<td>Nov 2017 – Present</td>
+							<td class="date">Nov 2017 – Present</td>
 						</tr>
 					</table>
 				</div>
@@ -154,7 +167,7 @@
 					<table>
 						<tr>
 							<td>National Association of Catholic Corps Members (NACC) Lekki Zone, Lagos State.</td>
-							<td>Apr 2017 – Nov 2017</td>
+							<td class="date">Apr 2017 – Nov 2017</td>
 						</tr>
 					</table>
 				</div>
@@ -172,7 +185,7 @@
 					<table>
 						<tr>
 							<td>National Youth Service Corps (NYSC) Lagos State Online Questionnaire.</td>
-							<td>Nov 2016 – Nov 2017</td>
+							<td class="date">Nov 2016 – Nov 2017</td>
 						</tr>
 					</table>
 				</div>
@@ -192,27 +205,27 @@
 				<table>
 					<tr>
 						<td>PluralSight, Mobile Web Specialist (Google Scholarship).</td>
-						<td>Ongoing</td>
+						<td class="date">Ongoing</td>
 					</tr>
 					<tr>
 						<td>Udacity, Front-end web developer.</td>
-						<td>May 2018 – Oct 2018</td>
+						<td class="date">May 2018 – Oct 2018</td>
 					</tr>
 					<tr>
 						<td>LinkedIn, UX Foundations: Interaction Design</td>
-						<td>Aug 2018 – Sep 2018</td>
+						<td class="date">Aug 2018 – Sep 2018</td>
 					</tr>
 					<tr>
 						<td>Decision-Making Strategies.</td>
-						<td>2017</td>
+						<td class="date">2017</td>
 					</tr>
 					<tr>
 						<td>Excel 2013: Pivot Tables.</td>
-						<td>2017</td>
+						<td class="date">2017</td>
 					</tr>
 					<tr>
 						<td>Critical Thinking.</td>
-						<td>2017</td>
+						<td class="date">2017</td>
 					</tr>
 					<tr>
 						<td>
@@ -221,7 +234,7 @@
 								<li>Second class honors (Upper division).</li>
 							</ul>
 						</td>
-						<td>Dec 2010 – Feb 2016</td>
+						<td class="date">Dec 2010 – Feb 2016</td>
 					</tr>
 				</table>
 			</article>
@@ -236,7 +249,7 @@
 					</tr>
 					<tr>
 						<td>Nigerian Youth Service Corps (NYSC), Lagos State.</td>
-						<td>2017</td>
+						<td class="date">2017</td>
 					</tr>
 					<tr>
 						<td>
@@ -249,11 +262,33 @@
 						<td>
 							Nigerian Society of Chemical Engineers, University of Port Harcourt student chapter.
 						</td>
-						<td>2017</td>
+						<td class="date">2017</td>
 					</tr>
 				</table>
 			</article>
 		</section>
+		<section id="sectionContact">
+            <h2 class="formTitle">Feel Free to get in Touch</h2>
+            <form id="formContact">
+                <div class="input-container title">
+                    <label for="title">Your Title</label>
+                        <input type="text" placeholder="Your Title" id="title">
+                </div>
+                <div class="input-container name">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required autocomplete="name" minlength="4">
+                </div>
+                <div class="input-container email">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required autocomplete="email">
+                </div>
+                <div class="input-container message">
+                    <label for="message">Your Message</label>
+                        <textarea type="text" id="message" placeholder="Your Message" required minlength="20"></textarea>
+                </div>
+                <input type="submit" value="Send" id="submitBtn" role="button">
+            </form>
+        </section>
 	</main>
 </body>
 </html>
