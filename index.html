@@ -267,6 +267,28 @@
 				</table>
 			</article>
 		</section>
+		<section id="sectionContact">
+            <h2 class="formTitle">Feel Free to get in Touch</h2>
+            <form id="formContact">
+                <div class="input-container title">
+                    <label for="title">Your Title</label>
+                        <input type="text" placeholder="Your Title" id="title">
+                </div>
+                <div class="input-container name">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required autocomplete="name" minlength="4">
+                </div>
+                <div class="input-container email">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required autocomplete="email">
+                </div>
+                <div class="input-container message">
+                    <label for="message">Your Message</label>
+                        <textarea type="text" id="message" placeholder="Your Message" required minlength="20"></textarea>
+                </div>
+                <input type="submit" value="Send" id="submitBtn" role="button">
+            </form>
+        </section>
 	</main>
 </body>
 </html>
